@@ -1,0 +1,26 @@
+{
+  "name": "red-team-engineering",
+  "version": "1.0.0",
+  "description": "A team profile generation app",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimothyThunderguns/Red-Team-Engineering.git"
+  },
+  "keywords": [
+    "team"
+  ],
+  "author": "Ryan Jackson",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/JimothyThunderguns/Red-Team-Engineering/issues"
+  },
+  "homepage": "https://github.com/JimothyThunderguns/Red-Team-Engineering#readme"
+}
