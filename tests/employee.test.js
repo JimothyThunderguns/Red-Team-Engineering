@@ -13,29 +13,28 @@ test('creates an emloyee object', () => {
 
 //getName getter
 test('gets employee name', () => {
-    const employee = new employee ('Hawk','59', 'roadwarriorhawk@gmail.com');
+    const employee = new employee ('Hawk', 59, 'roadwarriorhawk@gmail.com');
     
-    expect(employee.getName().toEqual(expect.any(String));
+    expect(employee.getName()).toEqual(expect.any(String));
 });
 
 //getId getter
 test('gets employee name', () => {
-    const employee = new employee ('Hawk','59', 'roadwarriorhawk@gmail.com');
+    const employee = new employee ('Hawk', 59, 'roadwarriorhawk@gmail.com');
     
-    expect(employee.getId().toEqual(expect.any(Number));
+    expect(employee.getId()).toEqual(expect.any(Number));
 });
 
 //getEmail getter
-//geName getter
 test('gets employee name', () => {
-    const employee = new employee ('Hawk','59', 'roadwarriorhawk@gmail.com');
+    const employee = new employee ('Hawk', 59, 'roadwarriorhawk@gmail.com');
     
-    expect(employee.getEmail().toEqual(expect.any(String));
+    expect(employee.getEmail()).toEqual(expect.any(String));
 });
 
 //getRole getter
 test('Grabs the Employee Role', () => {
-    const employee = new employee ('Hawk','59', 'roadwarriorhawk@gmail.com');
+    const employee = new employee ('Hawk', 59, 'roadwarriorhawk@gmail.com');
     
-    expect(employee.getRole().toEqual("Employee");
+    expect(employee.getRole()).toEqual("Employee");
 });

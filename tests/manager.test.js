@@ -1,9 +1,18 @@
+//Manager constructor
+const { hasUncaughtExceptionCaptureCallback } = require("process");
 const manager = require("../lib/manager");
 
+//creating manager object 
 test("Can set office number via constructor argument", () => {
-    const testValue = 100;
-    const e = new Manager("Foo", 1, "test@test.com", testValue);
-    expect(e.officeNumber).toBe(testValue);
-  });
+    const manager = new manager('Lex', 1213, 'TotalPackage@gmail.com', 323);
 
+    hasUncaughtExceptionCaptureCallback(manager.officeNumber).toEqual(expect.any(Number));
+});
+
+//getRole getter
+test('gets Employee role', () =>{
+  const manager = new manager('Lex', 1213, 'TotalPackage@gmail.com', 323);
+
+  expect(manager.getRole()).toEqual("Manager");
+});
   
