@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/JimothyThunderguns/Red-Team-Engineering/issues"
   },
-  "homepage": "https://github.com/JimothyThunderguns/Red-Team-Engineering#readme"
+  "homepage": "https://github.com/JimothyThunderguns/Red-Team-Engineering#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "jest": "^29.3.1"
+  }
 }
