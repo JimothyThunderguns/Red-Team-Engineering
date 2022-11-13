@@ -1,11 +1,11 @@
 //Engineer constructor
 const engineer = require("../lib/engineer");
 
-//creating manager object 
-test("Can set office number via constructor argument", () => {
+//creating Engineer object 
+test("", () => {
     const manager = new manager('Lex', 1213, 'TotalPackage@gmail.com', 323);
 
-    expect(manager.officeNumber).toEqual(expect.any(Number))
+    expect(engieneer.officeNumber).toEqual(expect.any(Number))
 });
 
 //getRole getter
