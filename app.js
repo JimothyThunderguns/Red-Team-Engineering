@@ -1,10 +1,15 @@
-//Required contsants
-const inquirer = require("inquirer");
-const fs = require("fs");
-const engineer 
-const intern = require("")
-const manager = 
+//page generation link
+const htmlMarkdown = require('./src/htmlMarkdown')
 
+//team profile scripts
+const manager = require('.lib/manager');
+const engineer = require('./lib/engineer');
+const intern = require('./lib/intern');
+
+const fs = require("fs");
+const inquirer = require("inquirer");    
+
+//tammates array
 const teammates = [];
 
 
